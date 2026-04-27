@@ -18,8 +18,4 @@ public class Empresa {
 
         return total;
     }
-
-    public void mostrarTotal() {
-        System.out.println("Total salarios: " + calcularTotalSalarios());
-    }
 }
