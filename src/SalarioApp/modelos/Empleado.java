@@ -20,4 +20,8 @@ public class Empleado {
     public double calcularSalarioTotal() {
         return salarioBase + calcularBono();
     }
+
+    public boolean aplicaDescuento() {
+        return salarioBase > 400;
+    }
 }
